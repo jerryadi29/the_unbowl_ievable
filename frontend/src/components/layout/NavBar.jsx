@@ -10,7 +10,7 @@ import {
 
 export default function NavBar() {
     return (
-        <nav className='fixed z-09 top-2 flex flex-row justify-evenly items-center px-8 bg-white w-3/4 gap-10 rounded-md border-2 border-black-600 shadow-md'>
+        <nav className='fixed z-10 top-2 flex flex-row justify-evenly items-center px-8 bg-white w-3/4 gap-10 rounded-md border-2 border-black-600 shadow-md'>
             <h1 className='text-1xl font-bold text-green-600'>The Unbowl-ievable</h1>
             <ul className='flex-1 flex flex-row justify-evenly items-center gap-4 w-full'>
                 <ul className='flex-1 flex flex-row justify-end items-center gap-12'>

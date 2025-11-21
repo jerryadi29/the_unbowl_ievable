@@ -3,21 +3,24 @@
 export default function Button({
   children,
   onClick,
+  rounded= "full",
   type = "button",
   variant = "primary",
+  fontColor = "white",
+  bold= "font-normal",
   size = "md",
   disabled = false,
   loading = false,
   className = "",
 }) {
   const base =
-    "rounded-full font-medium transition-all duration-200 flex items-center justify-center gap-2";
+    `rounded-${rounded} ${fontColor} font-medium transition-all duration-200 flex items-center justify-center gap-2`;
 
   const variants = {
-    primary: "bg-orange-500 text-white hover:bg-orange-600",
-    secondary: "bg-gray-200 text-gray-800 hover:bg-gray-300",
-    outline: "border border-orange-500 text-orange-500 hover:bg-orange-50",
-    danger: "bg-red-500 text-white hover:bg-red-600",
+    primary: `bg-orange-500 ${fontColor} hover:bg-orange-600`,
+    secondary: `bg-gray-200 ${fontColor} hover:bg-gray-300`,
+    outline: `border ${fontColor} text-orange-500 hover:bg-orange-50`,
+    danger: `bg-red-500 ${fontColor} hover:bg-red-600`,
   };
 
   const sizes = {
