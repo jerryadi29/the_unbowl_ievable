@@ -1,7 +1,7 @@
 # the_unbowl_ievable
 A modern salad-ordering web app where users can browse healthy items, add them to cart, and checkout using Google Pay or PhonePe. Includes category pages, phone-number login, user profile, order history, and subscription features.
 
-🥗 LeafMeUp – Salad Ordering Web App
+🥗 The Unbowl-ievable – Salad Ordering Web App
 
 A modern web application where users can browse healthy items, order salads, bowls & combos, add them to cart, checkout, and pay using Google Pay / PhonePe.
 Built for fast performance, smooth UI/UX, and a clean frontend architecture.
@@ -131,7 +131,7 @@ Node.js / Django
 PostgreSQL / MongoDB
 
 📁 Recommended Folder Structure
-leafmeup/
+The Unbowl-ievable/
   ├── src/
   │   ├── components/
   │   ├── pages/
