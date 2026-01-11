@@ -573,7 +573,7 @@ Node.js / Django
 PostgreSQL / MongoDB
 
 📁 Recommended Folder Structure
-leafmeup/
+The Unbowl-ievable/
   ├── src/
   │   ├── components/
   │   ├── pages/
